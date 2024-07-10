@@ -5,9 +5,9 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between bg-nav p-4">
+    <nav className="flex flex-col md:flex-row  justify-center text-center md:justify-between bg-nav p-4 ">
       {/* links and logo */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center justify-center md:justify-normal space-x-4">
         <Link href="/">
           <FontAwesomeIcon icon={faHome} className='icon' />
         </Link>
