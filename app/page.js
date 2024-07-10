@@ -6,6 +6,7 @@ export default function Home() {
     <>
     <h1>Hello from Ben Kuyu</h1>
     <TicketCard/>
+    <TicketCard/>
 
     </>
     
