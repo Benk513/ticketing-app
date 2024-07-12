@@ -1,14 +1,15 @@
-import Image from "next/image";
 import TicketCard from "./(components)/TicketCard";
 
 export default function Home() {
   return (
-    <>
-    <h1>Hello from Ben Kuyu</h1>
+    <div className="lg:p-5">
+      <div className="grid lg:grid-cols-3 xl:grid-cols-4">
     <TicketCard/>
     <TicketCard/>
 
-    </>
+      </div>
+
+    </div>
     
   );
 }
